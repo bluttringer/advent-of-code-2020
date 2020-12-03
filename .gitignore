@@ -1,4 +1,5 @@
 /advent-of-code-2020.iml
 /.idea/
+/common/target/
 /day-01/target/
 /day-02/target/
