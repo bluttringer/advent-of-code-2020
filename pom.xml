@@ -10,6 +10,7 @@
     <modules>
         <module>day-01</module>
         <module>day-02</module>
+        <module>day-03</module>
         <module>common</module>
     </modules>
     <packaging>pom</packaging>
