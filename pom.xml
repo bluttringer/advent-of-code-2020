@@ -12,6 +12,9 @@
         <module>day-02</module>
         <module>day-03</module>
         <module>day-04</module>
+        <module>day-05</module>
+        <module>day-06</module>
+        <module>day-07</module>
         <module>common</module>
     </modules>
     <packaging>pom</packaging>
