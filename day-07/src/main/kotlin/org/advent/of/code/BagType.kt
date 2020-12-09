@@ -1,10 +1,10 @@
 package org.advent.of.code
 
 
-class BagType(val color: String) {
+class BagType(val color: String, val number: Int = 1) {
 
-    override fun hashCode(): Int {
-        return color.hashCode()
+    override fun toString(): String {
+        return "BagType(color='$color', number=$number)"
     }
 
     override fun equals(other: Any?): Boolean {
@@ -18,8 +18,9 @@ class BagType(val color: String) {
         return true
     }
 
-    override fun toString(): String {
-        return "BagType(color='$color')"
+    override fun hashCode(): Int {
+        return color.hashCode()
     }
+
 
 }

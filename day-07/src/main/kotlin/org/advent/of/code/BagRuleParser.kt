@@ -27,7 +27,7 @@ class BagRuleParser(rule: String) {
             globalParsing[2].split(",")
                 .map {
                     val parsingGroups = CONTAINED_BAG_TYPE_REGEX.find(it)!!.groupValues
-                    BagType(parsingGroups[2])
+                    BagType(parsingGroups[2], Integer.parseInt(parsingGroups[1]))
                 }.toSet()
         } else {
             emptySet()
